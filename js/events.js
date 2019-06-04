@@ -18,6 +18,6 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function(){
     console.log($('img'));
-    $('img').className = "tasty";
+    $('img').className() = "tasty";
   });
 }
