@@ -16,7 +16,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('click', function(){
+  $('img').on('load', function(){
     $("img").addClass("tasty");
   });
 }
