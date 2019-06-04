@@ -18,6 +18,6 @@ function getIt() {
 function frameIt() {
   $('img').on('click', function(){
     console.log($('img'));
-    $('img').class = "tasty";
+    $('img').addClass = "tasty";
   });
 }
