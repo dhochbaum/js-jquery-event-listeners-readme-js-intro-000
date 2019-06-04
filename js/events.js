@@ -6,9 +6,7 @@ $(document).ready(function(){
 window.getIt()
 });
 
-function () {
-  return $('p')
-}
+
 
 function getIt() {
   $('p').on('click', function(){
