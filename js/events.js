@@ -17,7 +17,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('click', function(image){
-    console.log(image);
+    console.log(image.attributes);
     //image[0].className = "tasty";
     //$('img').className() = "tasty";
     //$('img:className').val() = "tasty";
