@@ -24,6 +24,6 @@ function frameIt() {
     //$('img:className').val() = "tasty";
     //console.log($('img'));
     console.log('it is firing at least')
-    
+
   });
 }
